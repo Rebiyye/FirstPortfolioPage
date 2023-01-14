@@ -8,6 +8,34 @@
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 1194px) {
+  .portfoliocontentbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfoliobox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfoliocontent {
+    width: 100%;
+  }
+  .connectwithme {
+    width: 70% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
 @media (max-width: 990px) {
   .navbar {
     flex-direction: column;
@@ -19,10 +47,30 @@
   .aboutbox {
     flex-direction: column;
   }
+  .portfoliobox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .connectwithme {
-    width: 500px !important;
+    width: 70% !important;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .portfoliocontentbox {
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutbox {
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -35,6 +83,23 @@
   }
   .aboutbox {
     flex-direction: column;
+  }
+  .contactbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .connectwithme {
+    width: 70% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .aboutbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -83,7 +148,7 @@ h2 {
   width: 20%;
   height: 150px;
   background-color: white;
-  padding: 1rem 0 0 1rem;
+  padding: 1rem 2rem;
 }
 .aboutcontent {
   width: 70%;
@@ -193,7 +258,7 @@ h2 {
 }
 .submit_Btn {
   background-color: #039a92;
-  width: 20%;
+  width: 8rem;
   color: white;
   padding: 0.5rem 1rem;
 }
